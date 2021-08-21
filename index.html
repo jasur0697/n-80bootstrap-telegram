@@ -1,0 +1,382 @@
+<!doctype html>
+<html class="h-100" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>77</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="d-flex flex-column h-100">
+
+<div class="row overflow-hidden">
+  <div class="col-lg-3 bg-white  pl-3 pr-0">
+
+    <div class="menu-section row mx-0 my-2 px-2">
+
+      <div class="col-1 m-0 p-0">
+        <button class="btn position-relative border-0 p-0 bg-transparent mr-2" type="button" data-toggle="modal" data-target="#left-menu">
+          <img src="./img/menu_black.svg" alt="menu-button" width="25" height="25">
+          <span class=" position-absolute menu-dot "></span>
+        </button>
+      </div>
+
+      <div class="col-10">
+          <form class="p-0 col-12" method="GET" action="https://echo.htmlacademy.ru" >
+            <input class="menu-search w-100 border-0 p-1  rounded" placeholder="Search" type="search">
+          </form>
+      </div>
+      <div class="col-1 p-0">
+        <button class="btn locker border-0 bg-transparent mr-2 p-0" type="button" data-toggle="modal" data-target="#lock">
+          <img src="./img/lock-open-solid.svg" alt="locker image" width="20" height="20">
+        </button>
+      </div>
+
+
+      <div class="col-lg-8"></div>
+    </div>
+
+    <div class="chats-section  p-0 m-0">
+      <div class="list-group overflow-auto vh-100 ">
+        <ul class="nav nav-pills mb-3  d-flex flex-column" id="pills-tab" role="tablist">
+          <li class="nav-item row">
+            <a class="nav-link active d-flex w-100  align-items-center" id="pills-home-tab row" data-toggle="pill" href="#frontend" role="tab" aria-controls="pills-home" aria-selected="true">
+              <span class="col-2 avatars ava-najot"></span>
+              <div class=" col-7 chat-profiles__name d-flex flex-column flex-nowrap ml-1 m-0 p-0 ">
+             <h3 class="profiles-name__heading p-0 d-flex"><span class="mr-2 chat-type chat-type__group"></span>Frontend Bootcamp</h3>
+             <p class="profiles-name-user__message p-0 m-0 flex-nowrap"><span class="blue-txt-sender mr-1">You:</span>Assalamu alaykum ustoz ozroq kech qolaman </p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end chat-profile-more__icons">
+                <span class="sent-icon main-icons"></span><time datetime="10:20 AM" class="ml-4 time-size text-black-50">10:20 AM</time>
+                <span class="main-icons pin mt-2"></span>
+              </div>
+            </a>
+          </li>
+
+          <li class="nav-item row">
+            <a class="nav-link  d-flex w-100  align-items-center" id="pills-home-tab row" data-toggle="pill" href="#motive" role="tab" aria-controls="pills-home" aria-selected="true">
+              <span class="col-2 avatars ava-pot"></span>
+              <div class=" col-7 chat-profiles__name d-flex flex-column flex-nowrap ml-1 m-0 p-0 ">
+             <h3 class="profiles-name__heading p-0 d-flex"><span class="mr-2 chat-type chat-type__chanel"></span>Motivation Time</h3>
+             <p class="profiles-name-user__message p-0 m-0 flex-nowrap"><span class="blue-txt-sender mr-1">Video</span>#MotivationTime</p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end chat-profile-more__icons">
+                <span class="sent-icon main-icons"></span><time datetime="10:20 AM" class="ml-4 time-size text-black-50">10:20 AM</time>
+                <span class="main-icons pin mt-2"></span>
+              </div>
+            </a>
+          </li>
+
+          <li class="nav-item row">
+            <a class="nav-link d-flex w-100  align-items-center" id="pills-home-tab" data-toggle="pill" href="#ukam" role="tab" aria-controls="pills-home" aria-selected="true">
+              <span class="col-2 avatars ava-motive"></span>
+              <div class=" col-7 chat-profiles__name d-flex flex-column flex-nowrap ml-1 m-0 p-0 ">
+             <h3 class="profiles-name__heading p-0 d-flex"><span class="mr-2 "></span>Ukam</h3>
+             <p class="profiles-name-user__message p-0 m-0 flex-nowrap"><span class="blue-txt-sender mr-1">You:</span>Aka kursni pulini to'ladim. Ertaga boshlanadi</p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end chat-profile-more__icons">
+          
+                <div class="d-flex">
+                  <span class="main-icons  sent-icon"></span>
+                <time datetime="10:20 AM" class="ml-4 time-size text-black-50 ">Wed</time>
+
+              </div>
+                <span class="main-icons pin mt-2"></span>
+              </div>
+            </a>
+          </li>
+          
+        </ul>
+    
+    </div>
+</div>
+</div>
+
+
+<div class=" col-lg-6 vh-100 m-0 p-0 overflow-hidden">
+
+    <div class="chat-conversation bg-primary">
+      <div class="tab-content" id="pills-tabContent">
+
+        <div class="tab-pane fade  show active" id="frontend" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="desc-menu p-0 row ">
+            <div class="col-9 desc-menu__info p-0 m-0 bg-warning ">
+          <button class="h5 border-0 bg-white w-100 pl-4 text-left p-0 m-0 ">Frontend Bootcamp<br>
+            <p class="chat-status text-black-50">21 members</p>          
+          </button>
+            
+            </div>
+        
+            <div class="col-3 desc-menu__icons bg-white d-flex justify-content-between align-items-center">
+              <button class="border-0 bg-white top-buttons search  "></button>
+              <button class="border-0 bg-white top-buttons audiochat "></button>
+              <button class="border-0 bg-white top-buttons sizer "></button>
+              <div class="dropdown dropleft">
+                <button class="dropdown-toggle top-buttons dots btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">View group info</a>
+                  <a class="dropdown-item" href="#">Disable notifications</a>
+                  <a class="dropdown-item" href="#">Manage group</a>
+                  <a class="dropdown-item" href="#">Add members</a>
+                  <a class="dropdown-item" href="#">Create poll</a>
+                  <a class="dropdown-item" href="#">Export chat history</a>
+                  <a class="dropdown-item" href="#">Leave group</a>
+                  <a class="dropdown-item" href="#">Clear history</a>
+                  <a class="dropdown-item" href="#">Report</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="conversation__wrapper text-white">
+             <div>
+              
+
+             </div>
+            </div>
+        
+        </div>
+
+        <div class="tab-pane fade  show active" id="motive" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="desc-menu p-0 row ">
+            <div class="col-9 desc-menu__info p-0 m-0 bg-warning ">
+          <button class="h5 border-0 bg-white w-100 pl-4 text-left p-0 m-0 ">Motivation Time<br>
+            <p class="chat-status text-black-50">192 members</p>          
+          </button>
+            
+            </div>
+        
+            <div class="col-3 desc-menu__icons bg-white d-flex justify-content-between align-items-center">
+              <button class="border-0 bg-white top-buttons search  "></button>
+              <button class="border-0 bg-white top-buttons audiochat "></button>
+              <button class="border-0 bg-white top-buttons sizer "></button>
+              <div class="dropdown dropleft">
+                <button class="dropdown-toggle top-buttons dots btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">View group info</a>
+                  <a class="dropdown-item" href="#">Disable notifications</a>
+                  <a class="dropdown-item" href="#">Manage group</a>
+                  <a class="dropdown-item" href="#">Add members</a>
+                  <a class="dropdown-item" href="#">Create poll</a>
+                  <a class="dropdown-item" href="#">Export chat history</a>
+                  <a class="dropdown-item" href="#">Leave group</a>
+                  <a class="dropdown-item" href="#">Clear history</a>
+                  <a class="dropdown-item" href="#">Report</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="conversation__wrapper text-white">
+              <div class="">
+
+              </div>          
+            </div>
+        
+        </div>
+
+
+        <div class="tab-pane fade  show active" id="ukam" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="desc-menu p-0 row ">
+            <div class="col-9 desc-menu__info p-0 m-0 bg-warning ">
+          <button class="h5 border-0 bg-white w-100 pl-4 text-left p-0 m-0 ">Ukam<br>
+            <p class="chat-status text-black-50">last seen recently</p>          
+          </button>
+            </div>
+        
+            <div class="col-3 desc-menu__icons bg-white d-flex justify-content-between align-items-center">
+              <button class="border-0 bg-white top-buttons search  "></button>
+              <button class="border-0 bg-white top-buttons audiochat "></button>
+              <button class="border-0 bg-white top-buttons sizer "></button>
+              <div class="dropdown dropleft">
+                <button class="dropdown-toggle top-buttons dots btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">View group info</a>
+                  <a class="dropdown-item" href="#">Disable notifications</a>
+                  <a class="dropdown-item" href="#">Manage group</a>
+                  <a class="dropdown-item" href="#">Add members</a>
+                  <a class="dropdown-item" href="#">Create poll</a>
+                  <a class="dropdown-item" href="#">Export chat history</a>
+                  <a class="dropdown-item" href="#">Leave group</a>
+                  <a class="dropdown-item" href="#">Clear history</a>
+                  <a class="dropdown-item" href="#">Report</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+            <div class="conversation__wrapper vh-90 overflow-auto ">
+              <div class="d-flex flex-column align-items-lg-center  text-white">
+                <time class="chat-time rounded-lg my-3" datetime="19 August">
+                  19 August</time>
+
+              <div class="message__container bg-white d-flex justify-content-start align-items-start">
+                <div class="messages d-inline">
+                  <div class="message__content text-black-50 bg-white">
+                           
+                      JASURLa
+
+
+                  </div>
+        
+                </div>
+              </div>
+              </div>
+            </div>
+        
+        </div>
+        
+      </div>
+    </div>
+
+</div>
+
+<div class=" col-lg-3 bg-white ">
+  <nav class="emoji-list__wrapper  mt-2 border-0">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="emoji-list nav-item nav-link col-lg-4 active" id="nav-home-tab" data-toggle="tab" href="#emoji" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+      <a class="emoji-list nav-item nav-link  col-lg-4" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+      <a class="emoji-list nav-item nav-link  col-lg-4" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="emoji" role="tabpanel" aria-labelledby="nav-home-tab">1</div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">2</div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">3</div>
+  </div>
+</div>
+
+  
+
+
+<!-- Modal -->
+<div class="tg-menu-modal modal fade position-absolute w-75" id="left-menu">
+  <div class="tg-menu-modal__modal-dialog modal-dialog m-0">
+    <div class="modal-content vh-100 overflow-auto">
+      <div class="modal-body p-0 rounded-0">
+
+
+        <div class="menu-bg__photo">
+          <div class="d-flex align-items-center justify-content-between p-3">
+            <a href="#"><img class="rounded-circle d-block" src="img/mine.jpg" alt="user photo" width="60" height="60"></a>
+            <a class="bookmark" href="#"><img class="d-block bookmark" src="img/bookmark_white.svg" alt="icon bookmark" width="25" height="25"></a>
+          </div>
+
+          <div>
+
+            <a class="btn d-flex align-items-center justify-content-between text-white p-3 collapsed" data-toggle="collapse" href="#new-account" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <div class="d-flex flex-column align-items-start">
+                <p class="mb-0 font-weight-bold">J N</p>
+                <span class="text-white">+998 97 5317667</span>
+              </div>
+              <img src="img/arrow-down.svg" alt="butoon toogle user account" width="30" height="30">
+            </a>
+
+            <div class="collapse bg-white" id="new-account">
+              <div class="card card-body border-bottom rounded-0">
+                <div class="d-flex align-items-center mt-2">
+                  <a class="text-decoration-none link d-flex align-items-center " href="#"><img class=" mr-3 rounded-circle" src="img/mine.jpg" alt="Photo of me" width="25" height="25">
+                  <h3 class="h6 text-dark mb-0">J N</h3>
+                </a>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <a class="link d-flex align-items-center " href="#"></a>
+                  <img class=" mr-3 rounded-circle" src="img/ic-add-account.svg" alt="Photo of user" width="25" height="25">
+                  <h4 class="h6 text-dark mb-0">Add Account</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-settings-wrapper p-3 d-flex flex-column justify-content-between">
+          <div class="">
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-group.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">New Group</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-channel.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">New Channel</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-person.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">New Contacts</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-call.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">Calls</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-settings.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">Settings</h4>
+            </a>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <a class="d-flex align-items-center text-decoration-none" href="#">
+                <img class="d-block mr-3 rounded-circle" src="img/ic-moon.svg" alt="Photo of user" width="30" height="30">
+                <h4 class="h6 text-dark mb-0">Night Mode</h4>
+              </a>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                <label class="custom-control-label" for="customSwitch1"></label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="tg-menu__footer mt-5">
+            <a class="text-secondary" href="#">
+              <p class="mb-1">Telegram Desktop</p>
+            </a>
+            <a class="text-secondary" href="#">
+              <p class="mb-1">Version 2</p>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--Lock-Modal -->
+<div class="modal bg-white" id="lock" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm vh-100">
+    <div class="modal-content border-0">
+      <div class="modal-header border-0">
+
+      </div>
+      <div class="modal-body border-0  ">
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <div class="form-group m-0">
+            <div class="mb-5">
+              <h4 class="h5 font-weight-normal">Enter your local passcode</h4>
+            </div>
+            <h6 class="passwcode-input">Your passcode</h6>
+            <input type="password" class="form-control" name="telegram_password" id="tg-password" placeholder="Your passcode" aria-label="Telegram password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer d-flex flex-column border-0">
+       
+        <button type="button" class="btn btn-primary p-3 font-weight-bold w-100">SUBMIT</button>
+        <button type="button" class="btn d-block p-3 font-weight-bold w-100" data-dismiss="modal">Log out</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+.menu-search {
+    background-color:#F1F1F1;
+}
+
+.menu-button {
+    z-index: 1;
+}
+
+.menu-dot {
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #5EB5F7;
+    border-radius: 50%;
+    z-index: 101;
+    top: 4px;
+    right: 1px;
+}
+
+.chat-items {
+    transition: ease 0.1s;
+}
+
+.chat-items:hover {
+    background-color: #F1F1F1;
+}
+
+
+
+.avatars {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ava-najot {
+    background-image: url("../img/naj.jpg");
+}
+
+.ava-pot {
+    background-image: url("../img/pot.jpg");
+}
+
+
+.ava-motive {
+    background-image: url("../img/motive-ch.jpg");
+}
+
+
+.active .chat-profiles__name  {
+  color:white;
+}
+
+.chat-profiles__name {
+    color:black;
+    width:210px
+}
+
+.blue-txt-sender {
+    color:#468ADE;
+}
+
+.active .blue-txt-sender {
+    color:white;
+}
+
+.profiles-name__heading {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profiles-name-user__message {
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-content {
+    font-size: 12px;
+}
+
+
+.tg-menu-modal__modal-dialog {
+    width: 25%!important;
+  }
+  
+  .modal-settings {
+  height: 80vh;
+  }
+  
+  .tg-menu-modal.fade .modal-dialog {
+    transform: translateX(-100%);
+  } 
+  
+  .tg-menu-modal.fade.show .modal-dialog {
+    transform: translateX(0);
+  }
+  
+
+
+.time-size {
+    font-size: 13px;
+}
+
+.chat-type {
+    display: block;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+
+}
+
+.chat-type__group {
+    background-image: url("../img/group-people.svg");
+}
+
+.chat-type__person {
+    background-image: url("../img/group-people.svg");
+}
+
+.chat-type__chanel {
+    background-image: url("../img/cahnel-icon.svg");
+}
+
+
+.left-modal.fade .modal-dialog {
+    transform: translateX(-100%);
+}
+
+.left-modal.fade.show .modal-dialog{
+    transform: translateX(0);
+}
+
+.main-icons {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.pin {
+    background-image: url("../img/pin-icon.svg");
+    
+}
+
+
+.sent-icon {
+    background-image: url("../img/done-all-icon.svg");
+}
+
+.dropleft .dropdown-toggle::before {
+    display: none;
+}
+
+.passwcode-input {
+    color: #468ADE;
+}
+
+.password-input {
+    border-bottom:#468ADE;
+}
+
+button {
+    cursor: pointer;
+}
+
+.chat-status {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-buttons {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.search {
+    background-image: url("../img/search-icon.svg");
+}
+
+.audiochat {
+    background-image: url("../img/voice-chat-icon.svg");
+}
+
+.sizer {
+    background-image: url("../img/icon-sizer.svg");
+    width: 15px;
+    height: 15px;
+}
+
+.dots {
+    background-image: url("../img/three-dot-icon.svg");
+}
+
+.conversation__wrapper {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg-1.jpg");
+    height: 100vh;
+    
+}
+
+.bookmark {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #61615F;
+}
+
+.menu-bg__photo {
+    background-color: #7a7a77;
+}
+
+
+.message__content {
+    position:relative;
+}
+
+
+.triangle {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -14px;
+    width: 20px;
+    height: 18px;
+    background-image: url("../img/icon-tail.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.emoji-list__wrapper.active {
+    border: none;
+}
+
+.emoji-list .active {
+    border-bottom: 3px solid black;
+}
